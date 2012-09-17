@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC08AF3315FDDAD600753F66 /* jumioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC08AF3215FDDAD600753F66 /* jumioViewController.m */; };
+		DC08AF3E15FDDC6C00753F66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3515FDDC6C00753F66 /* AudioToolbox.framework */; };
+		DC08AF3F15FDDC6C00753F66 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3615FDDC6C00753F66 /* AVFoundation.framework */; };
+		DC08AF4015FDDC6C00753F66 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3715FDDC6C00753F66 /* CFNetwork.framework */; };
+		DC08AF4115FDDC6C00753F66 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3815FDDC6C00753F66 /* CoreMedia.framework */; };
+		DC08AF4215FDDC6C00753F66 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3915FDDC6C00753F66 /* CoreVideo.framework */; };
+		DC08AF4315FDDC6C00753F66 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3A15FDDC6C00753F66 /* OpenGLES.framework */; };
+		DC08AF4415FDDC6C00753F66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3B15FDDC6C00753F66 /* QuartzCore.framework */; };
+		DC08AF4515FDDC6C00753F66 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3C15FDDC6C00753F66 /* Security.framework */; };
+		DC08AF4615FDDC6C00753F66 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF3D15FDDC6C00753F66 /* SystemConfiguration.framework */; };
+		DC08AF5215FDDE0600753F66 /* libNetswipeScanSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC08AF4E15FDDE0600753F66 /* libNetswipeScanSDK.a */; };
+		DC08AF5315FDDE0600753F66 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC08AF4F15FDDE0600753F66 /* Localizable.strings */; };
 		DC41A56315FD71FA00C399DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41A56215FD71FA00C399DC /* UIKit.framework */; };
 		DC41A56515FD71FA00C399DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41A56415FD71FA00C399DC /* Foundation.framework */; };
 		DC41A56715FD71FA00C399DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41A56615FD71FA00C399DC /* CoreGraphics.framework */; };
@@ -21,6 +33,8 @@
 		DC41A58615FD71FB00C399DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41A56415FD71FA00C399DC /* Foundation.framework */; };
 		DC41A58E15FD71FB00C399DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC41A58C15FD71FB00C399DC /* InfoPlist.strings */; };
 		DC41A59115FD71FB00C399DC /* LoginUBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41A59015FD71FB00C399DC /* LoginUBTests.m */; };
+		DC41A59C15FD735F00C399DC /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41A59B15FD735F00C399DC /* mainViewController.m */; };
+		DC41A5A215FD7BE600C399DC /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41A5A115FD7BE600C399DC /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +48,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC08AF3115FDDAD600753F66 /* jumioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jumioViewController.h; sourceTree = "<group>"; };
+		DC08AF3215FDDAD600753F66 /* jumioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jumioViewController.m; sourceTree = "<group>"; };
+		DC08AF3515FDDC6C00753F66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DC08AF3615FDDC6C00753F66 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC08AF3715FDDC6C00753F66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DC08AF3815FDDC6C00753F66 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DC08AF3915FDDC6C00753F66 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DC08AF3A15FDDC6C00753F66 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DC08AF3B15FDDC6C00753F66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC08AF3C15FDDC6C00753F66 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DC08AF3D15FDDC6C00753F66 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DC08AF4E15FDDE0600753F66 /* libNetswipeScanSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNetswipeScanSDK.a; path = LoginUB/libNetswipeScanSDK.a; sourceTree = "<group>"; };
+		DC08AF4F15FDDE0600753F66 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DC08AF5015FDDE0600753F66 /* NetswipeCardInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetswipeCardInformation.h; sourceTree = "<group>"; };
+		DC08AF5115FDDE0600753F66 /* NetswipeScanSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetswipeScanSDK.h; sourceTree = "<group>"; };
 		DC41A55E15FD71FA00C399DC /* LoginUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC41A56215FD71FA00C399DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC41A56415FD71FA00C399DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC41A56615FD71FA00C399DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC41A56A15FD71FA00C399DC /* LoginUB-Info.plist */ = {isa = PBXFileReference; path = "LoginUB-Info.plist"; sourceTree = "<group>"; };
+		DC41A56A15FD71FA00C399DC /* LoginUB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginUB-Info.plist"; sourceTree = "<group>"; };
 		DC41A56C15FD71FA00C399DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC41A56E15FD71FA00C399DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC41A57015FD71FA00C399DC /* LoginUB-Prefix.pch */ = {isa = PBXFileReference; path = "LoginUB-Prefix.pch"; sourceTree = "<group>"; };
-		DC41A57115FD71FA00C399DC /* loginAppDelegate.h */ = {isa = PBXFileReference; path = loginAppDelegate.h; sourceTree = "<group>"; };
+		DC41A57015FD71FA00C399DC /* LoginUB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginUB-Prefix.pch"; sourceTree = "<group>"; };
+		DC41A57115FD71FA00C399DC /* loginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginAppDelegate.h; sourceTree = "<group>"; };
 		DC41A57215FD71FA00C399DC /* loginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginAppDelegate.m; sourceTree = "<group>"; };
 		DC41A57515FD71FA00C399DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DC41A57815FD71FA00C399DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DC41A57A15FD71FA00C399DC /* loginViewController.h */ = {isa = PBXFileReference; path = loginViewController.h; sourceTree = "<group>"; };
+		DC41A57A15FD71FA00C399DC /* loginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
 		DC41A57B15FD71FA00C399DC /* loginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 		DC41A58215FD71FB00C399DC /* LoginUBTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUBTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC41A58315FD71FB00C399DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DC41A58B15FD71FB00C399DC /* LoginUBTests-Info.plist */ = {isa = PBXFileReference; path = "LoginUBTests-Info.plist"; sourceTree = "<group>"; };
+		DC41A58B15FD71FB00C399DC /* LoginUBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginUBTests-Info.plist"; sourceTree = "<group>"; };
 		DC41A58D15FD71FB00C399DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC41A58F15FD71FB00C399DC /* LoginUBTests.h */ = {isa = PBXFileReference; path = LoginUBTests.h; sourceTree = "<group>"; };
+		DC41A58F15FD71FB00C399DC /* LoginUBTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginUBTests.h; sourceTree = "<group>"; };
 		DC41A59015FD71FB00C399DC /* LoginUBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginUBTests.m; sourceTree = "<group>"; };
+		DC41A59A15FD735F00C399DC /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		DC41A59B15FD735F00C399DC /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		DC41A5A115FD7BE600C399DC /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +93,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC08AF3E15FDDC6C00753F66 /* AudioToolbox.framework in Frameworks */,
+				DC08AF3F15FDDC6C00753F66 /* AVFoundation.framework in Frameworks */,
+				DC08AF4015FDDC6C00753F66 /* CFNetwork.framework in Frameworks */,
+				DC08AF4115FDDC6C00753F66 /* CoreMedia.framework in Frameworks */,
+				DC08AF4215FDDC6C00753F66 /* CoreVideo.framework in Frameworks */,
+				DC08AF4315FDDC6C00753F66 /* OpenGLES.framework in Frameworks */,
+				DC08AF4415FDDC6C00753F66 /* QuartzCore.framework in Frameworks */,
+				DC08AF4515FDDC6C00753F66 /* Security.framework in Frameworks */,
+				DC08AF4615FDDC6C00753F66 /* SystemConfiguration.framework in Frameworks */,
 				DC41A56315FD71FA00C399DC /* UIKit.framework in Frameworks */,
 				DC41A56515FD71FA00C399DC /* Foundation.framework in Frameworks */,
 				DC41A56715FD71FA00C399DC /* CoreGraphics.framework in Frameworks */,
+				DC41A5A215FD7BE600C399DC /* FacebookSDK.framework in Frameworks */,
+				DC08AF5215FDDE0600753F66 /* libNetswipeScanSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +145,17 @@
 		DC41A56115FD71FA00C399DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC08AF4E15FDDE0600753F66 /* libNetswipeScanSDK.a */,
+				DC08AF3515FDDC6C00753F66 /* AudioToolbox.framework */,
+				DC08AF3615FDDC6C00753F66 /* AVFoundation.framework */,
+				DC08AF3715FDDC6C00753F66 /* CFNetwork.framework */,
+				DC08AF3815FDDC6C00753F66 /* CoreMedia.framework */,
+				DC08AF3915FDDC6C00753F66 /* CoreVideo.framework */,
+				DC08AF3A15FDDC6C00753F66 /* OpenGLES.framework */,
+				DC08AF3B15FDDC6C00753F66 /* QuartzCore.framework */,
+				DC08AF3C15FDDC6C00753F66 /* Security.framework */,
+				DC08AF3D15FDDC6C00753F66 /* SystemConfiguration.framework */,
+				DC41A5A115FD7BE600C399DC /* FacebookSDK.framework */,
 				DC41A56215FD71FA00C399DC /* UIKit.framework */,
 				DC41A56415FD71FA00C399DC /* Foundation.framework */,
 				DC41A56615FD71FA00C399DC /* CoreGraphics.framework */,
@@ -113,9 +167,15 @@
 		DC41A56815FD71FA00C399DC /* LoginUB */ = {
 			isa = PBXGroup;
 			children = (
+				DC08AF5015FDDE0600753F66 /* NetswipeCardInformation.h */,
+				DC08AF5115FDDE0600753F66 /* NetswipeScanSDK.h */,
 				DC41A57115FD71FA00C399DC /* loginAppDelegate.h */,
 				DC41A57215FD71FA00C399DC /* loginAppDelegate.m */,
 				DC41A57415FD71FA00C399DC /* MainStoryboard_iPhone.storyboard */,
+				DC08AF3115FDDAD600753F66 /* jumioViewController.h */,
+				DC08AF3215FDDAD600753F66 /* jumioViewController.m */,
+				DC41A59A15FD735F00C399DC /* mainViewController.h */,
+				DC41A59B15FD735F00C399DC /* mainViewController.m */,
 				DC41A57715FD71FA00C399DC /* MainStoryboard_iPad.storyboard */,
 				DC41A57A15FD71FA00C399DC /* loginViewController.h */,
 				DC41A57B15FD71FA00C399DC /* loginViewController.m */,
@@ -127,6 +187,7 @@
 		DC41A56915FD71FA00C399DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC08AF4F15FDDE0600753F66 /* Localizable.strings */,
 				DC41A56A15FD71FA00C399DC /* LoginUB-Info.plist */,
 				DC41A56B15FD71FA00C399DC /* InfoPlist.strings */,
 				DC41A56E15FD71FA00C399DC /* main.m */,
@@ -227,6 +288,7 @@
 				DC41A56D15FD71FA00C399DC /* InfoPlist.strings in Resources */,
 				DC41A57615FD71FA00C399DC /* MainStoryboard_iPhone.storyboard in Resources */,
 				DC41A57915FD71FA00C399DC /* MainStoryboard_iPad.storyboard in Resources */,
+				DC08AF5315FDDE0600753F66 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +326,8 @@
 				DC41A56F15FD71FA00C399DC /* main.m in Sources */,
 				DC41A57315FD71FA00C399DC /* loginAppDelegate.m in Sources */,
 				DC41A57C15FD71FA00C399DC /* loginViewController.m in Sources */,
+				DC41A59C15FD735F00C399DC /* mainViewController.m in Sources */,
+				DC08AF3315FDDAD600753F66 /* jumioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,9 +435,22 @@
 		DC41A59515FD71FB00C399DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginUB/LoginUB-Prefix.pch";
 				INFOPLIST_FILE = "LoginUB/LoginUB-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LoginUB\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-lstdc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,9 +459,22 @@
 		DC41A59615FD71FB00C399DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginUB/LoginUB-Prefix.pch";
 				INFOPLIST_FILE = "LoginUB/LoginUB-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LoginUB\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-lstdc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +533,7 @@
 				DC41A59615FD71FB00C399DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC41A59715FD71FB00C399DC /* Build configuration list for PBXNativeTarget "LoginUBTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +542,7 @@
 				DC41A59915FD71FB00C399DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

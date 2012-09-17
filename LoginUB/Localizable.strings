@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  NetswipeScanSDK
+
+  Created by Philipp Rakuschan on 10/07/2012.
+  Copyright (c) 2012 Jumio Inc. All rights reserved.
+*/
+
+"netswipe-mobile-sdk.button.cancel.title" = "Close";
+"netswipe-mobile-sdk.button.key-in.title" = "Key In";
+"netswipe-mobile-sdk.button.rescan.title" = "Scan again";
+"netswipe-mobile-sdk.button.confirm.title" = "Finish";
+"netswipe-mobile-sdk.button.confirm.disabled.title" = "Finishing recognition ...";
+//"netswipe-mobile-sdk.title" = "Netswipe Mobile";
+
+"netswipe-mobile-sdk.scan-view.button.flash.state-on.title" = "On";
+"netswipe-mobile-sdk.scan-view.button.flash.state-off.title" = "Off";
+"netswipe-mobile-sdk.scan-view.alignment-info.text" = "Align card to frame";
+
+"netswipe-mobile-sdk.verify-view.label.card-number.text" = "Card number";
+"netswipe-mobile-sdk.label.processing-info.text" = "Still processing, please enter additional information";
+"netswipe-mobile-sdk.verify-view.label.expiration-date.text" = "Expires";
+"netswipe-mobile-sdk.verify-view.label.cvv.text" = "CVV";
+
+"netswipe-mobile-sdk.label.error.text" = "Sorry, something went wrong";
+"netswipe-mobile-sdk.label.error-invalid-credentials.text" = "Please register at Jumio.com to use our Netswipe Mobile SDK, or check your account credentials.";
